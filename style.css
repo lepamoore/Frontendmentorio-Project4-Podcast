@@ -1,0 +1,514 @@
+  @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+overflow: hidden;
+}
+
+html {
+    background-image: url(./assets/mobile/image-host.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-color: rgb(10, 10, 19);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgba(10, 10, 19, 0.9); 
+    height: 100vh;
+    min-height: 667px;
+}
+
+#logoSec {
+    height: 25vh;
+    min-height: 166.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    height: 8vh; 
+    min-height: 53.36px;
+}
+
+#headerSection {
+    height: 10vh;
+    min-height: 66.7px;
+}
+
+.heading {
+    font-family: Chivo, sans-serif;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#heading1{
+    color: #54E6AF;
+}
+
+#heading2 {
+    color: #FFF;
+}
+
+#paragraphSection {
+    height: 22.5vh;
+    min-height: 150.08px;
+}
+
+#paragraph {
+    font-family: Chivo, sans-serif;
+    font-size: 1rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #C2CBE5;
+    font-weight: 100;
+    padding: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+#imageSection {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    min-height: 66.7px;
+    width: 90vw;
+}
+
+.icons {
+    height: 2vh;
+    min-height: 13.35px;
+}
+
+#inputSection {
+    height: 20vh;
+    min-height: 133.4px;
+    width: 85vw;
+    margin: auto;
+    margin-bottom: 7.5vh;
+}
+
+#inputSectionTablet {
+    display: none;
+}
+
+#emailField {
+    display: block;
+    width: 70vw;
+    height: 7vh;
+    min-height: 46.69px;
+    color: #FFF;
+    margin: auto;
+    background-color: #2C344B;
+    border-radius: 10vw;
+    border: none;
+    padding: 0 7.5vw ;
+}
+
+#emailField:focus {
+    outline: none;
+}
+
+#emailFieldTablet:focus {
+    outline: none;
+}
+
+#emailField::placeholder {
+    color: #5A668A;
+    font-weight: bold;
+
+}
+
+#warning {
+    color: red;
+    font-family: Chivo, sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.75;
+    padding-left: 7.5vw;
+    font-weight: 400;
+    display: none;
+}
+
+#button {
+    display: block;
+    width: 85vw;
+    margin: 2.5vh auto;
+    border-radius: 10vw;
+    height: 7vh;
+    min-height: 46.69px;
+    border: none;
+    background-color: #54E6AF;
+    color: #121725;
+    font-weight: bold;
+}
+
+#button:hover {
+    background-color: rgb(178, 255, 226);
+}
+
+aside {
+    display: none;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    html {
+        background-image: none;
+        background-color: #121725;
+        z-index: -1;
+    }
+
+    body {
+        background-color: rgba(10, 10, 19, 0);
+    }
+
+    main {
+        background-color: #121725;
+        width: 87.5vw;
+        height: 76vh;
+        min-height: 608px;
+        z-index: 1;
+    }
+
+    #logoSec {
+        height: 24vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #logo {
+        height: 5vh;
+        min-height: 40px;
+        width: auto;
+        padding: 5vh;
+    }
+
+    #headerSection {
+        height: 21vh; 
+        min-height: 168px;
+        
+    }
+
+    .heading {
+        text-align: left;
+        font-size: 3rem;
+        padding-left: 4vw;
+        line-height: 1.2;
+    }
+
+    #heading1 {
+        padding-top: 8vh;
+    }
+
+    #paragraphSection {
+        height: 18vh;
+        min-height: 144px;
+    }
+
+    #paragraph {
+        text-align: left;
+        width: 70%;
+        padding-left: 4vw;
+        padding-top: 2vh;
+        font-size: 1.2rem;
+    }
+
+    #inputSection {
+        display: none;
+    }
+
+    /* WORK HERE */
+
+    #inputSectionTablet {
+        height: 7vh;
+        min-height: 56px;
+        width: 63vw;
+        margin: 0;
+        margin-bottom: 0;
+        display: block;
+        position: relative;
+    }
+    
+    #emailFieldTablet {
+        display: inline-block;
+        width: 45vw;
+        height: 5.5vh;
+        min-height: 44px;
+        color: #FFF;
+        margin: auto;
+        background-color: #2C344B;
+        border-radius: 10vw;
+        border: none;
+        padding: 0 7.5vw ;
+        margin-left: 3vw;
+    }
+    
+    #emailFieldTablet::placeholder {
+        color: #5A668A;
+        font-weight: bold;
+    
+    }
+    
+    #warningTablet {
+        color: red;
+        font-family: Chivo, sans-serif;
+        font-size: 1rem;
+        line-height: 1.75;
+        padding-left: 7.5vw;
+        font-weight: 400;
+        display: none;
+    }
+    
+    #buttonTablet {
+        display: inline-block;
+        width: 25vw;
+        margin: 2.5vh auto;
+        border-radius: 10vw;
+        height: 5vh;
+        min-height: 40px;
+        border: none;
+        background-color: #54E6AF;
+        color: #121725;
+        font-weight: bold;
+        position: absolute;
+        top: -2.2vh;
+        left: 37.5vw;
+    }
+    
+    #buttonTablet:hover {
+        background-color: rgb(178, 255, 226);
+    }
+
+    /* WORK END */
+
+    #imageSection {
+        width: 87.5vw;
+        height: 27vh;
+        min-height: 216px;
+        justify-content:space-evenly;
+    }
+
+    .icons {
+        height: 2.5vh;
+        min-height: 20px;
+        margin-top: 3vh;
+    }
+
+    aside {
+        display: block;
+    }
+
+    #bgTablet {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+        height: 75vh;
+        width: auto;
+        min-height: 600px;
+    }
+
+    #bgDesktop {
+        display: none;
+    } 
+
+    #bgDecoration {
+        position: absolute;
+        left: 4vw;
+        bottom: -0.5vh;
+        z-index: 2;
+    }
+
+    .section {
+        z-index: 3;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    html {
+        background-image: none;
+        background-color: #121725;
+        z-index: -1;
+    }
+
+    body {
+        background-color: rgba(10, 10, 19, 0);
+    }
+
+    main {
+        background-color: #121725;
+        width: 60vw;
+        height: 76vh;
+        margin-left: 11vw;
+        margin-top: 6vh;
+        padding-left: 0;
+        min-height: 300px;
+        display: inline-block;
+    }
+
+    #logoSec {
+        height: 24vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #logo {
+        height: 5vh;
+        min-height: 25px;
+        width: auto;
+        position: absolute;
+        left: 14vw;
+        top: 12vh;
+    }
+
+    #headerSection {
+        height: 20vh;
+        min-height: 109.09px;
+    }
+
+    .heading {
+        text-align: left;
+        font-size: 2rem;
+        padding-left: 4vw;
+        line-height: 1.2;
+        
+    }
+
+    #heading1 {
+         padding-top: 8vh;
+    }
+
+    #paragraphSection {
+        height: 19vh;
+        min-height: 103.64px;
+    }
+
+    #paragraph {
+        text-align: left;
+        width: 70%;
+        padding-left: 4vw;
+        padding-top: 2vh;
+        font-size: 1rem;
+    }
+
+    #inputSection {
+        display: none;
+    }
+
+    /* WORK HERE */
+
+    #inputSectionTablet {
+        height: 8vh;
+        min-height: 42.64px;
+        width: 63vw;
+        margin: 0;
+        margin-bottom: 0;
+        display: block;
+        position: relative;
+
+    }
+    
+    #emailFieldTablet {
+        display: inline-block;
+        width: 25vw;
+        height: 5.5vh;
+        min-height: 27.5px;
+        color: #FFF;
+        margin: auto;
+        background-color: #2C344B;
+        border-radius: 10vw;
+        border: none;
+        padding: 0 2.5vw ;
+        margin-left: 3vw;
+    }
+    
+    #emailFieldTablet::placeholder {
+        color: #5A668A;
+        font-weight: bold;
+    
+    }
+    
+    #warningTablet {
+        color: red;
+        font-family: Chivo, sans-serif;
+        font-size: 1rem;
+        line-height: 1.75;
+        padding-left: 5vw;
+        font-weight: 400;
+        display: none;
+    }
+    
+    #buttonTablet {
+        display: inline-block;
+        width:14vw;
+        margin: 2.5vh auto;
+        border-radius: 10vw;
+        height: 5vh;
+        min-height: 25px;
+        border: none;
+        background-color: #54E6AF;
+        color: #121725;
+        font-weight: bold;
+        position: absolute;
+        top: -2.2vh;
+        left: 19vw;
+    }
+    
+    #buttonTablet:hover {
+        background-color: rgb(178, 255, 226);
+    }
+
+    /* WORK END */
+
+    #imageSection {
+        width: 87.5vw;
+        height: 6vh;
+        min-height: 32.73px;
+        justify-content:space-evenly;
+        align-items:flex-end;
+    }
+
+    .icons {
+        height: 2.5vh;
+        min-height: 12.5px;
+    }
+
+    aside {
+        display: block;
+    }
+
+    #bgDesktop {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 70vh;
+        min-height: 350px;
+    }
+
+    #bgTablet {
+        display: none;
+    }
+
+    #bgDecoration {
+        position: absolute;
+        right: -0.1vw;
+        bottom: 9vh;
+    }
+}
