@@ -33,7 +33,7 @@ Here you see the page on a tablet:
 And here is the Desktop view:
 ![](./desktopView.png)
 
-### Link to the Live Page
+### Link 
 
-[Live-Page]([https://www.github.com](https://lepamoore.github.io/Frontendmentorio-Project4-Podcast/)).
+[Live-Page](https://www.github.com](https://lepamoore.github.io/Frontendmentorio-Project4-Podcast/).
 
