@@ -35,5 +35,5 @@ And here is the Desktop view:
 
 ### Link 
 
-[Live-Page](https://www.github.com](https://lepamoore.github.io/Frontendmentorio-Project4-Podcast/).
+[Live-Page]( https://www.github.com](https://lepamoore.github.io/Frontendmentorio-Project4-Podcast/ )
 
