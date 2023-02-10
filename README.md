@@ -7,7 +7,8 @@ This is a solution to the [Pod request access landing page challenge on Frontend
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Live-Site] (#link)
+  - [Live-Site-Link](#link)
+
 
 ## Overview
 
@@ -34,5 +35,5 @@ And here is the Desktop view:
 
 ### Link to the Live Page
 
-[Live-Page](https://www.github.com).
+[Live-Page]([https://www.github.com](https://lepamoore.github.io/Frontendmentorio-Project4-Podcast/)).
 
