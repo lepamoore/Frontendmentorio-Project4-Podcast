@@ -210,20 +210,22 @@ aside {
     }
 
     #heading1 {
-        padding-top: 8vh;
+        padding-top: 6vh;
     }
 
     #paragraphSection {
-        height: 18vh;
-        min-height: 144px;
+        height: 16vh;
+        min-height: 128px;
+
     }
 
     #paragraph {
         text-align: left;
         width: 70%;
         padding-left: 4vw;
-        padding-top: 2vh;
+        padding-top: 0;
         font-size: 1.2rem;
+
     }
 
     #inputSection {
@@ -233,8 +235,8 @@ aside {
     /* WORK HERE */
 
     #inputSectionTablet {
-        height: 7vh;
-        min-height: 56px;
+        height: 9vh;
+        min-height: 72px;
         width: 63vw;
         margin: 0;
         margin-bottom: 0;
@@ -419,7 +421,7 @@ aside {
         margin-bottom: 0;
         display: block;
         position: relative;
-
+        overflow: visible;
     }
     
     #emailFieldTablet {
@@ -450,6 +452,7 @@ aside {
         padding-left: 5vw;
         font-weight: 400;
         display: none;
+
     }
     
     #buttonTablet {
